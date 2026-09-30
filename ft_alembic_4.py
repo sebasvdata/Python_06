@@ -4,10 +4,10 @@ import alchemy
 if __name__ == "__main__":
     print("=== Alembic 4 ===")
     try:
-        print("Accesing the alchemy module using 'import alchemy'")
+        print("Accessing the alchemy module using 'import alchemy'")
         print(f"Testing create_air {alchemy.create_air()}")
         print("Now show that not all functions can be reached")
         print("This will raise an exception!")
-        print(f"Testing create_air {alchemy.create_earth()}")
+        print(f"Testing create_earth {alchemy.create_earth()}")
     except AttributeError as error:
         print(f"\nAttributeError: {error}")
